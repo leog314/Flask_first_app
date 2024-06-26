@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Natural Language</title>
+    <style>
+body{
+            background-color: rgb(45, 45, 45);
+        }
+        header{
+            height: 160px;
+            font-family: 'Source Sans Pro', sans-serif;
+            display: flex;
+            justify-content: center;
+            font-size: xx-large;
+            color: #6da4fc;
+        }
+        .login{
+            display: flex;
+            background-color: rgb(56, 56, 55);
+            height: 520px;
+            margin-top: 40px;
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-bottom: 40px;
+            border: 2px solid white;
+            justify-content: center;
+            border-radius: 5px;
+        }
+        .label{
+            display: inline-block;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: large;
+            color: white;
+
+        }
+        .field{
+            height: 30px;
+            width: 300px;
+            border-radius: 6px;
+            background-color: white;
+        }
+        .buttom1{
+            margin-top: 20px;
+            height: 40px;
+            width: 150px;
+            border-radius: 5px;
+            background-color: #6da4fc;
+            color: white;
+            cursor: pointer;
+            margin-bottom: 40px;
+        }
+        h2{
+            font-family: 'Source Sans Pro', sans-serif;
+            text-align: center;
+            font-size: 30px;
+            color: #6da4fc;
+        }
+        ul{
+          font-family: 'Source Sans Pro', sans-serif;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(50, 50, 50)
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover{
+          background-color: #6da4fc;
+          cursor: pointer;
+        }
+        .signup{
+            font-family: 'Source Sans Pro', sans-serif;
+            display: inline-block;
+            font-size: large;
+            color: #6da4fc;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Title {{guess}}</h1>
+    </header>
+    <hr style="height: 1px; background-color: white;">
+    <ul>
+        <li><a href="http://127.0.0.1:5000/">Home</a></li>
+        <li><a>News</a></li>
+        <li><a>Contact</a></li>
+        <li><a href="http://127.0.0.1:5000/login">Login</a></li>
+    </ul>
+</body>
+</html>
